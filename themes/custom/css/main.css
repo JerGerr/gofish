@@ -1,0 +1,11 @@
+body {
+  background-color: green;
+}
+#block-mytheme-main-menu {
+  background-color: blue;
+  padding: 20px 0;
+}
+#block-mytheme-main-menu  ul li {
+display: inline;
+margin: 0 10px;
+}
