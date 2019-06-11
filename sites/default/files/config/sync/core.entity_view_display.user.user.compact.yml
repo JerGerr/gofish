@@ -1,4 +1,4 @@
-uuid: f160b1cc-fa92-4f2f-8107-05a7b69cf840
+uuid: 8e052bcf-ec78-462f-8591-c9c2396eb12b
 langcode: en
 status: true
 dependencies:
@@ -7,40 +7,8 @@ dependencies:
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
-    - field_layout
     - image
-    - layout_builder
-    - layout_discovery
     - user
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
-  layout_builder:
-    enabled: true
-    sections:
-      -
-        layout_id: layout_onecol
-        layout_settings: {  }
-        components:
-          49927fba-aa6c-465f-b286-a96de8b144e9:
-            uuid: 49927fba-aa6c-465f-b286-a96de8b144e9
-            region: content
-            configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              id: 'field_block:user:user:user_picture'
-              formatter:
-                type: image
-                settings:
-                  image_style: thumbnail
-                  image_link: content
-                third_party_settings: {  }
-                label: hidden
-            additional: {  }
-            weight: 0
-        third_party_settings: {  }
 _core:
   default_config_hash: '-cLsS3M3JycipXQt9rEb81_HxKneReoGuRh8ijcOPXs'
 id: user.user.compact

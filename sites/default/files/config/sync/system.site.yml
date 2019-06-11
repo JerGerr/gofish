@@ -1,11 +1,18 @@
+<<<<<<< HEAD:sites/default/files/config/sync/system.site.yml
 uuid: a6e4495d-9d1a-49b1-a690-7ecbaa6db840
 name: 'Muddy Waters'
 mail: jan.gerrits@edu.bc.fi
 slogan: 'Fishing Blues'
+=======
+uuid: cca8fd3e-276e-4c19-8acf-f77f155e6265
+name: 'Muddy Waters'
+mail: zeeshanahmad25@hotmail.com
+slogan: ''
+>>>>>>> 5ae4c1a0865b1c1a58f96f2dd79254178e6c79cc:sites/default/files/config/sync/system.site.yml
 page:
   403: ''
   404: ''
-  front: /user/login
+  front: /node
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
