@@ -1,0 +1,22 @@
+uuid: 95e6874e-b353-483b-8cd5-09dc9b229203
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.fishing_spots
+  module:
+    - text
+id: node.fishing_spots.body
+field_name: body
+entity_type: node
+bundle: fishing_spots
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
