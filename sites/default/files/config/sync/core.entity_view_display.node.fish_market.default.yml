@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.fish_market.body
+    - field.field.node.fish_market.field_pictureofcatch
     - node.type.fish_market
   module:
+    - file
     - text
     - user
 id: node.fish_market.default
@@ -19,6 +21,14 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
+    region: content
+  field_pictureofcatch:
+    weight: 102
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
     region: content
   links:
     weight: 100
