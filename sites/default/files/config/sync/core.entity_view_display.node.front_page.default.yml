@@ -1,0 +1,28 @@
+uuid: 64b16e2d-50cc-40d1-b4c1-5028a9a16b67
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.front_page.body
+    - node.type.front_page
+  module:
+    - text
+    - user
+id: node.front_page.default
+targetEntityType: node
+bundle: front_page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

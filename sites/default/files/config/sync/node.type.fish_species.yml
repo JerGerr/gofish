@@ -1,0 +1,18 @@
+uuid: 42e263d1-fc50-403c-a33f-54cac6c6642c
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Fish species'
+type: fish_species
+description: 'Repository of fish species in Southern Finland.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

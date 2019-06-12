@@ -1,0 +1,63 @@
+uuid: 05824df9-fecb-4c0c-88e9-2cac444a5022
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.aggregator_item.summary
+  module:
+    - aggregator
+    - field_layout
+    - layout_builder
+    - layout_discovery
+third_party_settings:
+  field_layout:
+    id: layout_onecol
+    settings: {  }
+  layout_builder:
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings: {  }
+        components:
+          de9e82ff-86fe-425f-9bab-ff6c511e9db1:
+            uuid: de9e82ff-86fe-425f-9bab-ff6c511e9db1
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:aggregator_item:aggregator_item:timestamp'
+              formatter:
+                label: above
+                settings:
+                  date_format: medium
+                  custom_date_format: ''
+                  timezone: ''
+                third_party_settings: {  }
+                type: timestamp
+            additional: {  }
+            weight: 0
+        third_party_settings: {  }
+_core:
+  default_config_hash: ei8DNHu3HVLFFuKrr2Y4MsxuHR8ZMt0kHQly-qfkTAU
+id: aggregator_item.aggregator_item.summary
+targetEntityType: aggregator_item
+bundle: aggregator_item
+mode: summary
+content:
+  timestamp:
+    weight: 0
+    region: content
+    label: above
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    type: timestamp
+hidden:
+  author: true
+  description: true
+  feed: true
+  link: true

@@ -1,0 +1,30 @@
+uuid: 02162c5e-e1e8-436a-b422-f66f1b51b383
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.fish_species.body
+    - node.type.fish_species
+  module:
+    - text
+    - user
+id: node.fish_species.teaser
+targetEntityType: node
+bundle: fish_species
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
