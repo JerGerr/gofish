@@ -4,9 +4,11 @@ status: true
 dependencies:
   config:
     - field.field.node.fish_market.body
+    - field.field.node.fish_market.field_pictureofcatch
     - node.type.fish_market
   module:
     - field_layout
+    - file
     - layout_discovery
     - path
     - text
@@ -34,6 +36,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_pictureofcatch:
+    weight: 122
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
   path:
     type: path
     weight: 30
