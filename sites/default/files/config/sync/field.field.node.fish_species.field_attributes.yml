@@ -1,0 +1,24 @@
+uuid: 317f6d5b-6e0b-4270-8565-676314b94111
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_attributes
+    - node.type.fish_species
+  module:
+    - text
+id: node.fish_species.field_attributes
+field_name: field_attributes
+entity_type: node
+bundle: fish_species
+label: Attributes
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 'weight and size'
+    format: basic_html
+default_value_callback: ''
+settings: {  }
+field_type: text
