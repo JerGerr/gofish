@@ -1,12 +1,12 @@
-uuid: 21eb7628-119f-43d7-ba2a-8d741c38f65e
+uuid: f757a76a-139b-403c-b530-429149572218
 langcode: en
 status: true
 dependencies: {  }
 _core:
   default_config_hash: pq_mEIu_B4widZN7Ap81iCJSjShFFdcL0jEiCi8VrDk
 id: anonymous
-label: Editor
-weight: -8
+label: 'Anonymous user'
+weight: 0
 is_admin: false
 permissions:
   - 'access comments'
