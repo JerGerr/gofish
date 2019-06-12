@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.fish_species.body
+    - field.field.node.fish_species.field_attributes
     - field.field.node.fish_species.field_image_fishtype
     - image.style.thumbnail
     - node.type.fish_species
@@ -37,6 +38,14 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
+  field_attributes:
+    weight: 123
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textfield
+    region: content
   field_image_fishtype:
     weight: 122
     settings:

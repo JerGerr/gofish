@@ -12,7 +12,7 @@ field_name: body
 entity_type: node
 bundle: fish_species
 label: Body
-description: ''
+description: "<b> General description </b>><br>\r\n\r\n<b> Catching technique </b>><br>\r\n\r\n<b> Fishing spots or conditions </b>><br>"
 required: false
 translatable: true
 default_value: {  }
