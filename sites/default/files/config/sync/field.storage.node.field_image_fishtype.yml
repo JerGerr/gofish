@@ -1,0 +1,30 @@
+uuid: 13694f4c-fb6e-4425-bc4b-8ef12c20935a
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_image_fishtype
+field_name: field_image_fishtype
+entity_type: node
+type: image
+settings:
+  uri_scheme: public
+  default_image:
+    uuid: 68d97040-3b5f-46cc-a76e-90dab0065572
+    alt: 'A picture will be coming soon'
+    title: 'Species of Fish'
+    width: 205
+    height: 205
+  target_type: file
+  display_field: false
+  display_default: false
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

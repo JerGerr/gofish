@@ -1,0 +1,22 @@
+uuid: 69e3ff04-fab1-44a6-a5c6-db908b840fc2
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.fishing_spots
+id: node.fishing_spots.promote
+field_name: promote
+entity_type: node
+bundle: fishing_spots
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

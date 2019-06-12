@@ -1,0 +1,30 @@
+uuid: d67ae9c8-6db7-48c4-9187-2f4249901b35
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.fish_market.body
+    - node.type.fish_market
+  module:
+    - text
+    - user
+id: node.fish_market.teaser
+targetEntityType: node
+bundle: fish_market
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
