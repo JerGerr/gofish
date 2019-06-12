@@ -53,11 +53,6 @@ theme:
   classy: 0
   bartik: 0
   seven: 0
-<<<<<<< HEAD:sites/default/files/config/sync/core.extension.yml
-  mytheme: 0
-  drupal8_parallax_theme: 0
-=======
->>>>>>> 5ae4c1a0865b1c1a58f96f2dd79254178e6c79cc:sites/default/files/config/sync/core.extension.yml
   drupal8_zymphonies_theme: 0
 profile: standard
 _core:
