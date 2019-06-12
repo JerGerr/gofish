@@ -1,4 +1,4 @@
-uuid: 205f1369-9839-43ce-9e5d-1480f47ae18c
+uuid: 67b8a689-124b-46f5-9d39-a414eeb63cc4
 langcode: en
 status: true
 dependencies:
@@ -6,50 +6,8 @@ dependencies:
     - field.field.user.user.user_picture
     - image.style.thumbnail
   module:
-    - field_layout
     - image
-    - layout_builder
-    - layout_discovery
     - user
-third_party_settings:
-  field_layout:
-    id: layout_onecol
-    settings: {  }
-  layout_builder:
-    enabled: true
-    sections:
-      -
-        layout_id: layout_onecol
-        layout_settings: {  }
-        components:
-          4de4ec58-334e-4292-8a3f-83e29f1348a1:
-            uuid: 4de4ec58-334e-4292-8a3f-83e29f1348a1
-            region: content
-            configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              id: 'field_block:user:user:user_picture'
-              formatter:
-                type: image
-                settings:
-                  image_style: thumbnail
-                  image_link: content
-                third_party_settings: {  }
-                label: hidden
-            additional: {  }
-            weight: 0
-          d44299fa-666f-4b3b-a1f2-1b67e793a820:
-            uuid: d44299fa-666f-4b3b-a1f2-1b67e793a820
-            region: content
-            configuration:
-              label_display: '0'
-              context_mapping:
-                entity: layout_builder.entity
-              id: 'extra_field_block:user:user:member_for'
-            additional: {  }
-            weight: 1
-        third_party_settings: {  }
 _core:
   default_config_hash: V51QPCKkgNREKtSmB9Iu2wmAMEpktVpnzklWaZV8UYo
 id: user.user.default
@@ -60,8 +18,6 @@ content:
   member_for:
     weight: 5
     region: content
-    settings: {  }
-    third_party_settings: {  }
   user_picture:
     type: image
     weight: 0

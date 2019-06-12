@@ -1,4 +1,4 @@
-uuid: 83d86acc-1cf5-496e-a2a2-6c1bb1d6bf6f
+uuid: 83818089-48a7-425b-b469-cf56b12805ff
 langcode: en
 status: true
 dependencies: {  }
@@ -7,7 +7,7 @@ _core:
 id: feedback
 label: 'Website feedback'
 recipients:
-  - jan.gerrits@edu.bc.fi
+  - zeeshanahmad25@hotmail.com
 reply: ''
 weight: 0
 message: 'Your message has been sent.'
