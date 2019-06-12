@@ -1,11 +1,11 @@
-uuid: cca8fd3e-276e-4c19-8acf-f77f155e6265
+uuid: a6e4495d-9d1a-49b1-a690-7ecbaa6db840
 name: 'Muddy Waters'
-mail: zeeshanahmad25@hotmail.com
-slogan: ''
+mail: jan.gerrits@edu.bc.fi
+slogan: 'Fishing Blues'
 page:
   403: ''
   404: ''
-  front: /node
+  front: /user/login
 admin_compact_mode: false
 weight_select_max: 100
 langcode: en
