@@ -1,0 +1,18 @@
+uuid: 04b4c58c-2f0e-4b7a-8491-48c46be745b4
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.map
+id: node.map.title
+field_name: title
+entity_type: node
+bundle: map
+label: spots
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
