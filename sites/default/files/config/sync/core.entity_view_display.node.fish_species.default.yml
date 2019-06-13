@@ -30,6 +30,15 @@ content:
     third_party_settings: {  }
     type: text_default
     region: content
+  field_dispersion_map:
+    weight: 104
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
   field_image_fishtype:
     weight: 102
     label: above
