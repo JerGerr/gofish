@@ -1,0 +1,38 @@
+uuid: ff433b0d-6f5c-405c-9249-0f286e5ba4e1
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_dispersion_map
+    - node.type.fish_species
+  module:
+    - image
+id: node.fish_species.field_dispersion_map
+field_name: field_dispersion_map
+entity_type: node
+bundle: fish_species
+label: 'dispersion map'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: ''
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

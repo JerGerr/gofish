@@ -1,0 +1,22 @@
+uuid: cc0e6734-ee16-4f0b-8121-5153772530b8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.fishing_log
+  module:
+    - text
+id: node.fishing_log.body
+field_name: body
+entity_type: node
+bundle: fishing_log
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

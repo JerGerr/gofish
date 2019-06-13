@@ -1,0 +1,57 @@
+uuid: 22c79bdd-afc6-4c75-9f92-97ac1b6a06ff
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.fish_species.body
+    - field.field.node.fish_species.field_attributes
+    - field.field.node.fish_species.field_dispersion_map
+    - field.field.node.fish_species.field_image_fishtype
+    - node.type.fish_species
+  module:
+    - image
+    - text
+    - user
+id: node.fish_species.default
+targetEntityType: node
+bundle: fish_species
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_attributes:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_dispersion_map:
+    weight: 104
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_image_fishtype:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }
