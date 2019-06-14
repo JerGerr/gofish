@@ -1,10 +1,10 @@
 features:
-  comment_user_picture: 1
-  comment_user_verification: 1
-  favicon: 1
+  comment_user_picture: true
+  comment_user_verification: true
+  favicon: true
   logo: true
   name: true
-  node_user_picture: 1
+  node_user_picture: true
   slogan: true
 facebook_url: 'https://www.facebook.com/zymphonies'
 twitter_url: 'https://twitter.com/zymphonies'
@@ -16,7 +16,7 @@ copyright_text: 'Copyright 2015· All rights reserved'
 show_social_icon: 1
 show_credit_link: 1
 show_slideshow: 1
-no_of_slides: '3'
+no_of_slides: 3
 slide_title_1: 'Drupal 8 zymphonies theme'
 slide_description_1: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since.'
 slide_url_1: '#'
@@ -31,16 +31,3 @@ slide_url_3: '#'
 slide_image_path_3: /images/slider/slide_03.jpg
 _core:
   default_config_hash: TY6WLYxZaBJKkY4Trvj8R0VVUW8GmqYeBoAayk5l2vw
-logo:
-  use_default: 0
-  path: 'public://logo2smaller_0_0.png'
-favicon:
-  use_default: 0
-  path: 'public://favicon_0_0.png'
-  mimetype: image/png
-slide_image_path1:
-  - '15'
-slide_image_path2:
-  - '20'
-slide_image_path3:
-  - '21'

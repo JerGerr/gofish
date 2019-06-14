@@ -13,6 +13,7 @@ module:
   contextual: 0
   datetime: 0
   dblog: 0
+  devel: 0
   dynamic_page_cache: 0
   editor: 0
   field: 0
@@ -20,6 +21,9 @@ module:
   field_ui: 0
   file: 0
   filter: 0
+  geolocation: 0
+  geolocation_google_places_api: 0
+  hbc_user: 0
   help: 0
   history: 0
   image: 0
@@ -34,6 +38,7 @@ module:
   quickedit: 0
   rdf: 0
   search: 0
+  search_kint: 0
   shortcut: 0
   system: 0
   taxonomy: 0
@@ -54,7 +59,6 @@ theme:
   mytheme: 0
   drupal8_parallax_theme: 0
   drupal8_zymphonies_theme: 0
-  danland: 0
 profile: standard
 _core:
   default_config_hash: R4IF-ClDHXxblLcG0L7MgsLvfBIMAvi_skumNFQwkDc
