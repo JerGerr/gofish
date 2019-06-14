@@ -5,6 +5,10 @@ dependencies:
   config:
     - field.field.node.fish_species.body
     - field.field.node.fish_species.field_attributes
+<<<<<<< HEAD
+=======
+    - field.field.node.fish_species.field_dispersion_map
+>>>>>>> f81a23f1649914fb73cd02d343c4ab157f5df4f1
     - field.field.node.fish_species.field_image_fishtype
     - image.style.thumbnail
     - node.type.fish_species
@@ -16,7 +20,11 @@ dependencies:
     - text
 third_party_settings:
   field_layout:
+<<<<<<< HEAD
     id: layout_onecol
+=======
+    id: layout_twocol
+>>>>>>> f81a23f1649914fb73cd02d343c4ab157f5df4f1
     settings: {  }
 id: node.fish_species.default
 targetEntityType: node
@@ -31,11 +39,19 @@ content:
       summary_rows: 3
       placeholder: ''
     third_party_settings: {  }
+<<<<<<< HEAD
     region: content
   created:
     type: datetime_timestamp
     weight: 10
     region: content
+=======
+    region: first
+  created:
+    type: datetime_timestamp
+    weight: 10
+    region: first
+>>>>>>> f81a23f1649914fb73cd02d343c4ab157f5df4f1
     settings: {  }
     third_party_settings: {  }
   field_attributes:
@@ -45,7 +61,19 @@ content:
       placeholder: ''
     third_party_settings: {  }
     type: text_textfield
+<<<<<<< HEAD
     region: content
+=======
+    region: first
+  field_dispersion_map:
+    weight: 124
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: first
+>>>>>>> f81a23f1649914fb73cd02d343c4ab157f5df4f1
   field_image_fishtype:
     weight: 122
     settings:
@@ -53,11 +81,19 @@ content:
       preview_image_style: thumbnail
     third_party_settings: {  }
     type: image_image
+<<<<<<< HEAD
     region: content
   path:
     type: path
     weight: 30
     region: content
+=======
+    region: first
+  path:
+    type: path
+    weight: 30
+    region: first
+>>>>>>> f81a23f1649914fb73cd02d343c4ab157f5df4f1
     settings: {  }
     third_party_settings: {  }
   promote:
@@ -65,26 +101,42 @@ content:
     settings:
       display_label: true
     weight: 15
+<<<<<<< HEAD
     region: content
+=======
+    region: first
+>>>>>>> f81a23f1649914fb73cd02d343c4ab157f5df4f1
     third_party_settings: {  }
   status:
     type: boolean_checkbox
     settings:
       display_label: true
     weight: 120
+<<<<<<< HEAD
     region: content
+=======
+    region: first
+>>>>>>> f81a23f1649914fb73cd02d343c4ab157f5df4f1
     third_party_settings: {  }
   sticky:
     type: boolean_checkbox
     settings:
       display_label: true
     weight: 16
+<<<<<<< HEAD
     region: content
+=======
+    region: first
+>>>>>>> f81a23f1649914fb73cd02d343c4ab157f5df4f1
     third_party_settings: {  }
   title:
     type: string_textfield
     weight: -5
+<<<<<<< HEAD
     region: content
+=======
+    region: first
+>>>>>>> f81a23f1649914fb73cd02d343c4ab157f5df4f1
     settings:
       size: 60
       placeholder: ''
@@ -96,6 +148,10 @@ content:
       match_operator: CONTAINS
       size: 60
       placeholder: ''
+<<<<<<< HEAD
     region: content
+=======
+    region: first
+>>>>>>> f81a23f1649914fb73cd02d343c4ab157f5df4f1
     third_party_settings: {  }
 hidden: {  }
