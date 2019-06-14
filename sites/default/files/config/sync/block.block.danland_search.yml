@@ -1,0 +1,22 @@
+uuid: 630a0f97-fd6f-4a80-a53c-6e506574f4e2
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - danland
+_core:
+  default_config_hash: wBogGxijLiX3Gj0U9IH_rwuv0SqXH2fZPb8v3dRfPOI
+id: danland_search
+theme: danland
+region: header
+weight: -1
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+visibility: {  }
