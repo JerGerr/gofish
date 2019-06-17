@@ -8,7 +8,8 @@
         "wikimedia/composer-merge-plugin": "^1.4",
         "drush/drush": "^9.7",
         "drupal/feeds_ex": "^1.0@alpha",
-        "drupal/geolocation": "^1.11"
+        "drupal/geolocation": "^1.11",
+        "drupal/openweather": "^1.0"
     },
     "replace": {
         "drupal/core": "^8.7"
