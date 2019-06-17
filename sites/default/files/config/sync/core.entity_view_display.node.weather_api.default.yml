@@ -1,0 +1,28 @@
+uuid: 214dc252-f9d7-4450-a2a5-005fd9c3a427
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.weather_api.body
+    - node.type.weather_api
+  module:
+    - text
+    - user
+id: node.weather_api.default
+targetEntityType: node
+bundle: weather_api
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

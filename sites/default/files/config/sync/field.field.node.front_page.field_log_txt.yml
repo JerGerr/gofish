@@ -1,0 +1,21 @@
+uuid: 10247cc1-655b-4351-bcdd-af9f4cf9b2d4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_log_txt
+    - node.type.front_page
+  module:
+    - text
+id: node.front_page.field_log_txt
+field_name: field_log_txt
+entity_type: node
+bundle: front_page
+label: Log-txt
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

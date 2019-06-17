@@ -5,6 +5,12 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.front_page.body
+    - field.field.node.front_page.field_image1
+    - field.field.node.front_page.field_image2
+    - field.field.node.front_page.field_image3
+    - field.field.node.front_page.field_log_history
+    - field.field.node.front_page.field_log_txt
+    - field.field.node.front_page.field_weather
     - node.type.front_page
   module:
     - text
@@ -24,7 +30,13 @@ content:
     region: content
   links:
     weight: 100
+    region: content
     settings: {  }
     third_party_settings: {  }
-    region: content
-hidden: {  }
+hidden:
+  field_image1: true
+  field_image2: true
+  field_image3: true
+  field_log_history: true
+  field_log_txt: true
+  field_weather: true

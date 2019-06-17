@@ -1,0 +1,21 @@
+uuid: 5f5f35ec-d9e9-4e3a-b557-53833aee40ec
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_fishing_map
+    - node.type.fishing_spots
+  module:
+    - geolocation
+id: node.fishing_spots.field_fishing_map
+field_name: field_fishing_map
+entity_type: node
+bundle: fishing_spots
+label: 'Fishing map'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation
