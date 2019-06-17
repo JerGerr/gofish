@@ -1,0 +1,19 @@
+uuid: 45b0eda6-6e7a-4cda-8798-f0f72a21f7af
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_log_txt
+field_name: field_log_txt
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
