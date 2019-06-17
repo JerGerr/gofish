@@ -1,0 +1,12 @@
+<?php
+
+/**
+ * @file
+ * Contains hbc_user.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_form_alter().
+ */
