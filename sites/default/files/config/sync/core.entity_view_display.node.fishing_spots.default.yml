@@ -4,10 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.fishing_spots.body
-    - field.field.node.fishing_spots.field_fishing_map
     - node.type.fishing_spots
   module:
-    - geolocation
     - text
     - user
 id: node.fishing_spots.default
@@ -21,13 +19,6 @@ content:
     weight: 101
     settings: {  }
     third_party_settings: {  }
-    region: content
-  field_fishing_map:
-    weight: 102
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: geolocation_latlng
     region: content
   links:
     weight: 100

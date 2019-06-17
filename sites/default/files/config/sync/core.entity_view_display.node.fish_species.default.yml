@@ -19,28 +19,19 @@ content:
   body:
     label: hidden
     type: text_default
-    weight: 2
+    weight: 101
     settings: {  }
     third_party_settings: {  }
     region: content
   field_attributes:
-    weight: 3
+    weight: 103
     label: above
     settings: {  }
     third_party_settings: {  }
     type: text_default
     region: content
-  field_dispersion_map:
-    weight: 4
-    label: above
-    settings:
-      image_style: ''
-      image_link: ''
-    third_party_settings: {  }
-    type: image
-    region: content
   field_image_fishtype:
-    weight: 1
+    weight: 102
     label: above
     settings:
       image_style: ''
@@ -49,8 +40,8 @@ content:
     type: image
     region: content
   links:
-    weight: 0
-    region: content
+    weight: 100
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden: {  }

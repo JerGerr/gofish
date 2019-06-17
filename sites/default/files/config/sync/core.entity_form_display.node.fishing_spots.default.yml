@@ -4,11 +4,9 @@ status: true
 dependencies:
   config:
     - field.field.node.fishing_spots.body
-    - field.field.node.fishing_spots.field_fishing_map
     - node.type.fishing_spots
   module:
     - field_layout
-    - geolocation
     - layout_discovery
     - path
     - text
@@ -36,12 +34,6 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-  field_fishing_map:
-    weight: 122
-    settings: {  }
-    third_party_settings: {  }
-    type: geolocation_latlng
-    region: content
   path:
     type: path
     weight: 30

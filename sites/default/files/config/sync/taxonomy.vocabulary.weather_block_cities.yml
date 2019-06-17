@@ -1,8 +1,0 @@
-uuid: 31ba1edd-545b-4e8c-aebf-b1ef2bb07e51
-langcode: en
-status: true
-dependencies: {  }
-name: 'Weather cities'
-vid: weather_block_cities
-description: null
-weight: 0

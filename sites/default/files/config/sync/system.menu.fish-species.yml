@@ -1,8 +1,0 @@
-uuid: 5df7764d-dc6c-44c1-98f4-16905d9a732f
-langcode: en
-status: true
-dependencies: {  }
-id: fish-species
-label: 'Fish species'
-description: ''
-locked: false

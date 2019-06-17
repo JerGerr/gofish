@@ -4,15 +4,8 @@ status: true
 dependencies:
   config:
     - field.field.node.front_page.body
-    - field.field.node.front_page.field_image1
-    - field.field.node.front_page.field_image2
-    - field.field.node.front_page.field_image3
-    - field.field.node.front_page.field_log_history
-    - field.field.node.front_page.field_log_txt
-    - field.field.node.front_page.field_weather
     - node.type.front_page
   module:
-    - image
     - text
     - user
 id: node.front_page.default
@@ -27,57 +20,9 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_image1:
-    weight: 102
-    label: above
-    settings:
-      image_style: ''
-      image_link: ''
-    third_party_settings: {  }
-    type: image
-    region: content
-  field_image2:
-    weight: 104
-    label: above
-    settings:
-      image_style: ''
-      image_link: ''
-    third_party_settings: {  }
-    type: image
-    region: content
-  field_image3:
-    weight: 106
-    label: above
-    settings:
-      image_style: ''
-      image_link: ''
-    third_party_settings: {  }
-    type: image
-    region: content
-  field_log_history:
-    weight: 107
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_log_txt:
-    weight: 105
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
-  field_weather:
-    weight: 103
-    label: above
-    settings: {  }
-    third_party_settings: {  }
-    type: text_default
-    region: content
   links:
     weight: 100
-    region: content
     settings: {  }
     third_party_settings: {  }
+    region: content
 hidden: {  }
