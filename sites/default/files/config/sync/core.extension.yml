@@ -31,6 +31,7 @@ module:
   layout_discovery: 0
   link: 0
   live_weather: 0
+  media: 0
   menu_ui: 0
   node: 0
   openweather: 0
@@ -44,12 +45,17 @@ module:
   system: 0
   taxonomy: 0
   text: 0
+  token: 0
   toolbar: 0
   tour: 0
   update: 0
   user: 0
+  video_embed_field: 0
+  video_embed_media: 0
+  video_embed_wysiwyg: 0
   views_ui: 0
   weather_block: 0
+  forum: 1
   menu_link_content: 1
   views: 10
   standard: 1000

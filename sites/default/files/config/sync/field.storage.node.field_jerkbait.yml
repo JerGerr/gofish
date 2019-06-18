@@ -1,0 +1,19 @@
+uuid: aa322d33-a9c2-44ed-84e2-fa9ff02e8587
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - video_embed_field
+id: node.field_jerkbait
+field_name: field_jerkbait
+entity_type: node
+type: video_embed_field
+settings: {  }
+module: video_embed_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

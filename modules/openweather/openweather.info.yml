@@ -1,0 +1,12 @@
+name: Open Weather
+type: module
+description: Details about the weather forecast
+package: custom
+configure: openweather.settings
+# core: 8.x
+
+# Information added by Drupal.org packaging script on 2017-02-07
+version: '8.x-1.0'
+core: '8.x'
+project: 'openweather'
+datestamp: 1486459733

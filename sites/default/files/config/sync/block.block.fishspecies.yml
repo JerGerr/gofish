@@ -1,0 +1,33 @@
+uuid: 14b6bfd2-330f-4528-9128-2674ed3f5c62
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.fish-species
+  module:
+    - node
+    - system
+  theme:
+    - drupal8_zymphonies_theme
+id: fishspecies
+theme: drupal8_zymphonies_theme
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'system_menu_block:fish-species'
+settings:
+  id: 'system_menu_block:fish-species'
+  label: 'Fish species'
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      fish_species: fish_species
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

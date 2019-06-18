@@ -1,0 +1,30 @@
+uuid: faadad62-a3b6-49a5-ac0a-663d1d898c9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.angling_techniques.body
+    - node.type.angling_techniques
+  module:
+    - text
+    - user
+id: node.angling_techniques.teaser
+targetEntityType: node
+bundle: angling_techniques
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

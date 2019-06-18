@@ -13,8 +13,140 @@ dependencies:
     - node.type.front_page
   module:
     - image
+    - layout_builder
     - text
     - user
+third_party_settings:
+  layout_builder:
+    allow_custom: true
+    enabled: true
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings: {  }
+        components:
+          02c8fa06-8b53-4aec-b415-8a544cd9859e:
+            uuid: 02c8fa06-8b53-4aec-b415-8a544cd9859e
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'extra_field_block:node:front_page:links'
+            additional: {  }
+            weight: 0
+          1bb4edbd-dc11-4954-a80a-14095d83c2a4:
+            uuid: 1bb4edbd-dc11-4954-a80a-14095d83c2a4
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:front_page:body'
+              formatter:
+                label: hidden
+                type: text_default
+                settings: {  }
+                third_party_settings: {  }
+            additional: {  }
+            weight: 1
+          b81e24d6-88ad-4cc3-a716-ac3d52cf57d4:
+            uuid: b81e24d6-88ad-4cc3-a716-ac3d52cf57d4
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:front_page:field_image1'
+              formatter:
+                label: above
+                settings:
+                  image_style: ''
+                  image_link: ''
+                third_party_settings: {  }
+                type: image
+            additional: {  }
+            weight: 2
+          f341737e-48db-4864-ac56-5fe2eb1c0a97:
+            uuid: f341737e-48db-4864-ac56-5fe2eb1c0a97
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:front_page:field_weather'
+              formatter:
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+                type: text_default
+            additional: {  }
+            weight: 3
+          9cadde4d-7ac3-4ff5-8f8f-91f689c4cd0b:
+            uuid: 9cadde4d-7ac3-4ff5-8f8f-91f689c4cd0b
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:front_page:field_image2'
+              formatter:
+                label: above
+                settings:
+                  image_style: ''
+                  image_link: ''
+                third_party_settings: {  }
+                type: image
+            additional: {  }
+            weight: 4
+          51bb5576-7595-4219-9677-51361e10d53f:
+            uuid: 51bb5576-7595-4219-9677-51361e10d53f
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:front_page:field_log_txt'
+              formatter:
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+                type: text_default
+            additional: {  }
+            weight: 5
+          be583f0d-accc-4f5e-94cc-9f833ccd496b:
+            uuid: be583f0d-accc-4f5e-94cc-9f833ccd496b
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:front_page:field_image3'
+              formatter:
+                label: above
+                settings:
+                  image_style: ''
+                  image_link: ''
+                third_party_settings: {  }
+                type: image
+            additional: {  }
+            weight: 6
+          9a7e8998-2aff-4100-a93b-75e3f9dcd85b:
+            uuid: 9a7e8998-2aff-4100-a93b-75e3f9dcd85b
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:front_page:field_log_history'
+              formatter:
+                label: above
+                settings: {  }
+                third_party_settings: {  }
+                type: text_default
+            additional: {  }
+            weight: 7
+        third_party_settings: {  }
 id: node.front_page.default
 targetEntityType: node
 bundle: front_page

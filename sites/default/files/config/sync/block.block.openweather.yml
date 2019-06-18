@@ -1,0 +1,42 @@
+uuid: efc472a8-852c-45cf-87ae-f328edfb3d0c
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:3d62759d-9efe-4364-bbd8-9a295ebe8b74'
+  module:
+    - block_content
+    - node
+    - system
+  theme:
+    - drupal8_zymphonies_theme
+id: openweather
+theme: drupal8_zymphonies_theme
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:3d62759d-9efe-4364-bbd8-9a295ebe8b74'
+settings:
+  id: 'block_content:3d62759d-9efe-4364-bbd8-9a295ebe8b74'
+  label: 'Open weather'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      front_page: front_page
+      open_weather: open_weather
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }
