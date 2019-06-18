@@ -1,0 +1,25 @@
+uuid: 4a5aa3e1-48f5-41e9-89da-f789120e58c2
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_spinning
+    - node.type.angling_techniques
+  module:
+    - video_embed_field
+id: node.angling_techniques.field_spinning
+field_name: field_spinning
+entity_type: node
+bundle: angling_techniques
+label: Spinning
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube: youtube
+    vimeo: '0'
+    youtube_playlist: '0'
+field_type: video_embed_field

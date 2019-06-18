@@ -1,0 +1,30 @@
+uuid: 2a68134f-9da5-4e13-8059-08872b4fec9b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.open_weather.body
+    - node.type.open_weather
+  module:
+    - text
+    - user
+id: node.open_weather.teaser
+targetEntityType: node
+bundle: open_weather
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,25 @@
+uuid: e7bdd9ed-08f9-47da-b997-7ea6fe6c9a84
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_angling
+    - node.type.angling_techniques
+  module:
+    - video_embed_field
+id: node.angling_techniques.field_angling
+field_name: field_angling
+entity_type: node
+bundle: angling_techniques
+label: Angling
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube: youtube
+    vimeo: '0'
+    youtube_playlist: '0'
+field_type: video_embed_field

@@ -1,0 +1,22 @@
+uuid: 494c7bc5-da41-444e-b30c-a6dd56f985c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.open_weather
+  module:
+    - text
+id: node.open_weather.body
+field_name: body
+entity_type: node
+bundle: open_weather
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

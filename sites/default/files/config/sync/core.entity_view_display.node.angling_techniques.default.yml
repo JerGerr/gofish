@@ -1,0 +1,65 @@
+uuid: 18e3feb9-610b-4d08-80d4-e9ce77ed1a65
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.angling_techniques.body
+    - field.field.node.angling_techniques.field_angling
+    - field.field.node.angling_techniques.field_jerkbait
+    - field.field.node.angling_techniques.field_spinning
+    - node.type.angling_techniques
+  module:
+    - text
+    - user
+    - video_embed_field
+id: node.angling_techniques.default
+targetEntityType: node
+bundle: angling_techniques
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_angling:
+    weight: 2
+    label: above
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+  field_jerkbait:
+    weight: 4
+    label: above
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+  field_spinning:
+    weight: 3
+    label: above
+    settings:
+      responsive: true
+      width: 854
+      height: 480
+      autoplay: true
+    third_party_settings: {  }
+    type: video_embed_field_video
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

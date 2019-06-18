@@ -1,0 +1,22 @@
+uuid: c6399418-b0e5-4a75-89b0-2fdb47dacbc5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.angling_techniques
+  module:
+    - text
+id: node.angling_techniques.body
+field_name: body
+entity_type: node
+bundle: angling_techniques
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

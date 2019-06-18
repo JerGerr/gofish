@@ -1,0 +1,32 @@
+uuid: 836068c0-43a9-4222-9d7b-cf8c7e5330aa
+langcode: en
+status: false
+dependencies:
+  module:
+    - live_weather
+    - node
+  theme:
+    - drupal8_zymphonies_theme
+id: liveweatherblock
+theme: drupal8_zymphonies_theme
+region: content
+weight: 0
+provider: null
+plugin: live_weather_block
+settings:
+  id: live_weather_block
+  label: 'Live Weather block'
+  provider: live_weather
+  label_display: visible
+  list:
+    list: {  }
+visibility:
+  node_type:
+    id: node_type
+    bundles:
+      article: article
+      front_page: front_page
+      page: page
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
