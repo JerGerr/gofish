@@ -10,12 +10,16 @@ dependencies:
     - field.field.node.front_page.field_log_history
     - field.field.node.front_page.field_log_txt
     - field.field.node.front_page.field_weather
+    - field.field.node.front_page.layout_builder__layout
+    - field.field.node.front_page.webform
     - node.type.front_page
   module:
     - image
     - layout_builder
+    - layout_discovery
     - text
     - user
+    - webform
 third_party_settings:
   layout_builder:
     allow_custom: true
@@ -146,6 +150,22 @@ third_party_settings:
                 type: text_default
             additional: {  }
             weight: 7
+          345a65ba-3d1a-4bfa-a45e-98616d00a1bb:
+            uuid: 345a65ba-3d1a-4bfa-a45e-98616d00a1bb
+            region: content
+            configuration:
+              label_display: '0'
+              context_mapping:
+                entity: layout_builder.entity
+              id: 'field_block:node:front_page:webform'
+              formatter:
+                label: above
+                settings:
+                  source_entity: true
+                third_party_settings: {  }
+                type: webform_entity_reference_entity_view
+            additional: {  }
+            weight: 8
         third_party_settings: {  }
 id: node.front_page.default
 targetEntityType: node
@@ -212,4 +232,13 @@ content:
     region: content
     settings: {  }
     third_party_settings: {  }
-hidden: {  }
+  webform:
+    weight: 108
+    label: above
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: content
+hidden:
+  layout_builder__layout: true

@@ -5,6 +5,7 @@ dependencies:
   config:
     - field.field.node.fishing_spots.body
     - field.field.node.fishing_spots.field_fishing_map
+    - field.field.node.fishing_spots.field_permitmap
     - node.type.fishing_spots
   module:
     - field_layout
@@ -70,6 +71,12 @@ content:
       explicite_actions_address_field: ''
     third_party_settings: {  }
     type: geolocation_googlegeocoder
+    region: content
+  field_permitmap:
+    weight: 123
+    settings: {  }
+    third_party_settings: {  }
+    type: geolocation_latlng
     region: content
   path:
     type: path

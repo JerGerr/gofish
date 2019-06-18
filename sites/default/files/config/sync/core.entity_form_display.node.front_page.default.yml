@@ -10,6 +10,8 @@ dependencies:
     - field.field.node.front_page.field_log_history
     - field.field.node.front_page.field_log_txt
     - field.field.node.front_page.field_weather
+    - field.field.node.front_page.layout_builder__layout
+    - field.field.node.front_page.webform
     - image.style.thumbnail
     - node.type.front_page
   module:
@@ -17,6 +19,7 @@ dependencies:
     - image
     - layout_discovery
     - text
+    - webform
 third_party_settings:
   field_layout:
     id: layout_threecol_33_34_33
@@ -60,14 +63,6 @@ content:
     type: image_image
     region: first
   field_log_history:
-    weight: 3
-    settings:
-      rows: 5
-      placeholder: ''
-    third_party_settings: {  }
-    type: text_textarea
-    region: first
-  field_log_txt:
     weight: 7
     settings:
       rows: 5
@@ -98,8 +93,17 @@ content:
       size: 60
       placeholder: ''
     third_party_settings: {  }
+  webform:
+    weight: 3
+    settings:
+      default_data: true
+    third_party_settings: {  }
+    type: webform_entity_reference_select
+    region: first
 hidden:
   created: true
+  field_log_txt: true
+  layout_builder__layout: true
   path: true
   status: true
   sticky: true

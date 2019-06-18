@@ -1,0 +1,169 @@
+uuid: 74802b0c-043e-4731-9c29-eb3574d8309b
+langcode: en
+status: open
+dependencies: {  }
+open: null
+close: null
+weight: 0
+uid: 1
+template: false
+archive: false
+id: fishing_log
+title: 'Fishing log'
+description: ''
+category: ''
+elements: "email:\n  '#type': email\n  '#title': Email\n  '#access_create_roles':\n    - authenticated\n    - anonymous\n  '#access_update_roles':\n    - authenticated\n    - anonymous\n  '#access_view_roles':\n    - authenticated\n    - anonymous\n  '#required': true\nday_time:\n  '#type': datetime\n  '#title': 'Day & time'\n  '#access_create_roles':\n    - authenticated\n    - anonymous\n  '#access_update_roles':\n    - authenticated\n    - anonymous\n  '#access_view_roles':\n    - authenticated\n    - anonymous\n  '#date_time_step': '60'\nlocation:\n  '#type': webform_address\n  '#title': Location\n  '#access_create_roles':\n    - authenticated\n    - anonymous\n  '#access_update_roles':\n    - authenticated\n    - anonymous\n  '#access_view_roles':\n    - authenticated\n    - anonymous\n  '#address_2__access': false\n  '#city__access': false\n  '#state_province__access': false\nfish_type:\n  '#type': webform_select_other\n  '#title': 'Fish type'\n  '#options':\n    Pike: Pike\n    Perch: Perch\n    Roach: Roach\n  '#access_create_roles':\n    - authenticated\n    - anonymous\n  '#access_update_roles':\n    - authenticated\n    - anonymous\n  '#access_view_roles':\n    - authenticated\n    - anonymous\nweight:\n  '#type': number\n  '#title': Weight\n  '#field_suffix': grams\n  '#access_create_roles':\n    - authenticated\n    - anonymous\n  '#access_update_roles':\n    - authenticated\n    - anonymous\n  '#access_view_roles':\n    - authenticated\n    - anonymous\nsize:\n  '#type': number\n  '#title': Size\n  '#field_suffix': mm\n  '#access_create_roles':\n    - authenticated\n    - anonymous\n  '#access_update_roles':\n    - authenticated\n    - anonymous\n  '#access_view_roles':\n    - authenticated\n    - anonymous\nweather_conditions:\n  '#type': checkboxes\n  '#title': 'Weather conditions'\n  '#options':\n    Sunny: Sunny\n    Cloudy: Cloudy\n    Rain: Rain\n  '#access_create_roles':\n    - authenticated\n    - anonymous\n  '#access_update_roles':\n    - authenticated\n    - anonymous\n  '#access_view_roles':\n    - authenticated\n    - anonymous\ntemperature:\n  '#type': number\n  '#title': Temperature\n  '#field_suffix': 'in Celsius'\n  '#access_create_roles':\n    - authenticated\n    - anonymous\n  '#access_update_roles':\n    - authenticated\n    - anonymous\n  '#access_view_roles':\n    - authenticated\n    - anonymous\n  '#step': '0.1'\nangling_technique:\n  '#type': select\n  '#title': 'Angling technique'\n  '#options':\n    Angling: Angling\n    Trolling: Trolling\n    'Fly fishing (one-handed)': 'Fly fishing (one-handed)'\n  '#access_create_roles':\n    - authenticated\n    - anonymous\n  '#access_update_roles':\n    - authenticated\n    - anonymous\n  '#access_view_roles':\n    - authenticated\n    - anonymous\nbait_lure:\n  '#type': select\n  '#title': Bait/lure\n  '#options':\n    '1 tbd ': '1 tbd '\n    '2 tbd': '2 tbd'\n    '3 tbd': '3 tbd'\n  '#access_create_roles':\n    - authenticated\n    - anonymous\n  '#access_update_roles':\n    - authenticated\n    - anonymous\n  '#access_view_roles':\n    - authenticated\n    - anonymous\nactions:\n  '#type': webform_actions\n  '#title': 'Submit button(s)'\n  '#access_create_roles':\n    - authenticated\n    - anonymous\n  '#access_update_roles':\n    - authenticated\n    - anonymous\n  '#access_view_roles':\n    - authenticated\n    - anonymous\n  '#submit__label': Submit"
+css: ''
+javascript: ''
+settings:
+  ajax: false
+  ajax_scroll_top: form
+  page: true
+  page_submit_path: ''
+  page_confirm_path: ''
+  form_title: both
+  form_submit_once: false
+  form_exception_message: ''
+  form_open_message: ''
+  form_close_message: ''
+  form_previous_submissions: true
+  form_confidential: false
+  form_confidential_message: ''
+  form_remote_addr: true
+  form_convert_anonymous: false
+  form_prepopulate: false
+  form_prepopulate_source_entity: false
+  form_prepopulate_source_entity_required: false
+  form_prepopulate_source_entity_type: ''
+  form_reset: false
+  form_disable_autocomplete: false
+  form_novalidate: false
+  form_disable_inline_errors: false
+  form_required: false
+  form_unsaved: false
+  form_disable_back: false
+  form_submit_back: false
+  form_autofocus: false
+  form_details_toggle: false
+  form_access_denied: default
+  form_access_denied_title: ''
+  form_access_denied_message: ''
+  form_access_denied_attributes: {  }
+  form_file_limit: ''
+  submission_label: ''
+  submission_log: false
+  submission_views: {  }
+  submission_views_replace: {  }
+  submission_user_columns: {  }
+  submission_user_duplicate: false
+  submission_access_denied: default
+  submission_access_denied_title: ''
+  submission_access_denied_message: ''
+  submission_access_denied_attributes: {  }
+  submission_exception_message: ''
+  submission_locked_message: ''
+  submission_excluded_elements: {  }
+  submission_exclude_empty: false
+  submission_exclude_empty_checkbox: false
+  previous_submission_message: ''
+  previous_submissions_message: ''
+  autofill: false
+  autofill_message: ''
+  autofill_excluded_elements: {  }
+  wizard_progress_bar: true
+  wizard_progress_pages: false
+  wizard_progress_percentage: false
+  wizard_progress_link: false
+  wizard_start_label: ''
+  wizard_preview_link: false
+  wizard_confirmation: true
+  wizard_confirmation_label: ''
+  wizard_track: ''
+  preview: 0
+  preview_label: ''
+  preview_title: ''
+  preview_message: ''
+  preview_attributes: {  }
+  preview_excluded_elements: {  }
+  preview_exclude_empty: true
+  preview_exclude_empty_checkbox: false
+  draft: none
+  draft_multiple: false
+  draft_auto_save: false
+  draft_saved_message: ''
+  draft_loaded_message: ''
+  confirmation_type: page
+  confirmation_title: ''
+  confirmation_message: ''
+  confirmation_url: ''
+  confirmation_attributes: {  }
+  confirmation_back: true
+  confirmation_back_label: ''
+  confirmation_back_attributes: {  }
+  confirmation_exclude_query: false
+  confirmation_exclude_token: false
+  limit_total: null
+  limit_total_interval: null
+  limit_total_message: ''
+  limit_total_unique: false
+  limit_user: null
+  limit_user_interval: null
+  limit_user_message: ''
+  limit_user_unique: false
+  entity_limit_total: null
+  entity_limit_total_interval: null
+  entity_limit_user: null
+  entity_limit_user_interval: null
+  purge: none
+  purge_days: null
+  results_disabled: false
+  results_disabled_ignore: false
+  token_update: false
+access:
+  create:
+    roles:
+      - anonymous
+      - authenticated
+    users: {  }
+    permissions: {  }
+  view_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  purge_any:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  view_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  update_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  delete_own:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  administer:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  test:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+  configuration:
+    roles: {  }
+    users: {  }
+    permissions: {  }
+handlers: {  }

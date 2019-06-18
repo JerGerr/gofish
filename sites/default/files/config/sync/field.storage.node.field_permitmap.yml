@@ -1,0 +1,19 @@
+uuid: 5f830862-1fd9-426d-a89a-446741afe020
+langcode: en
+status: true
+dependencies:
+  module:
+    - geolocation
+    - node
+id: node.field_permitmap
+field_name: field_permitmap
+entity_type: node
+type: geolocation
+settings: {  }
+module: geolocation
+locked: false
+cardinality: 8
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,21 @@
+uuid: 60a87949-2a61-45b9-b44d-9b857423b6a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_permitmap
+    - node.type.fishing_spots
+  module:
+    - geolocation
+id: node.fishing_spots.field_permitmap
+field_name: field_permitmap
+entity_type: node
+bundle: fishing_spots
+label: Permitmap
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

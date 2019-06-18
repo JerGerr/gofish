@@ -1,0 +1,33 @@
+uuid: 04e77a0e-42af-42e1-b4ed-a28867da90e4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.webform
+    - node.type.front_page
+    - webform.webform.fishing_log
+  module:
+    - webform
+id: node.front_page.webform
+field_name: webform
+entity_type: node
+bundle: front_page
+label: Webform
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    webform_access_group: {  }
+    default_data: ''
+    status: open
+    open: ''
+    close: ''
+    target_uuid: 74802b0c-043e-4731-9c29-eb3574d8309b
+default_value_callback: ''
+settings:
+  handler: 'default:webform'
+  handler_settings:
+    target_bundles: null
+    auto_create: false
+field_type: webform
