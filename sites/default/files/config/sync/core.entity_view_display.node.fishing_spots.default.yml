@@ -4,7 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.fishing_spots.body
-    - field.field.node.fishing_spots.field_fishing_map
+    - field.field.node.fishing_spots.field_maps
     - node.type.fishing_spots
   module:
     - geolocation
@@ -22,7 +22,7 @@ content:
     settings: {  }
     third_party_settings: {  }
     region: content
-  field_fishing_map:
+  field_maps:
     weight: 102
     label: above
     settings: {  }
